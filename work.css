@@ -1,0 +1,59 @@
+body {
+   background-color: black;
+
+}
+.img1 {
+  width: 1550px;
+  height: 400px;
+;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  border-width: 10px;
+  border-radius: 5px;
+  color: #f2f2f2;
+  background-image: url("https://i.imgur.com/LqY4Ttb.gif");
+
+}
+
+h2 {
+ text-align: center;
+color: white;
+font-size: 70px;
+border-radius: 10px;
+border-width: 10px;
+
+animation: mymove 1s infinite;
+}
+
+#divLeft {
+  width: 350px;
+  
+  padding: 10px;
+
+}
+
+#divRight {
+  color: white;
+  width: 1000px;
+  float: left;
+  
+  padding: 10px;
+  float: left;
+  font-size: 29px;
+  line-height: 100px;
+  
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: green;)
+}
+
+
+
+
+
+
+
